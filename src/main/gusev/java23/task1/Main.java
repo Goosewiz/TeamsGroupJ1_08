@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws AlreadyExistsException {
         Map<String, Integer> info = new HashMap<String, Integer>();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Начали");
+        System.out.println("Вводите текст");
         String input;
         int number = 0;
         while(true){
@@ -26,5 +26,6 @@ public class Main {
                 break;
             }
         }
+        sc.close();
     }
 }
