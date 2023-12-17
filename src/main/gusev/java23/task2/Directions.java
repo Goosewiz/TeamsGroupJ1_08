@@ -16,19 +16,10 @@ public enum Directions {
     public String getRussianName(){
         return this.russianName;
     }
-    public void setRussianName(String russianName){
-        this.russianName = russianName;
-    }
     public int getSymbolCode(){
         return this.symbolCode;
     }
-    public void setSymbolCode(int symbolCode){
-        this.symbolCode = symbolCode;
-    }
     public int[] getDirection(){
         return this.direction;
-    }
-    public void setDirection(int[] direction){
-        this.direction = direction;
     }
 }
