@@ -8,4 +8,16 @@ public class AlreadyExistsException extends  Exception{
         this.value = value;
         this.position = position;
     }
+    public String getValue(){
+        return this.value;
+    }
+    public void setValue(String value){
+        this.value = value;
+    }
+    public int getPosition(){
+        return this.position;
+    }
+    public void setPosition(int position){
+        this.position = position;
+    }
 }
